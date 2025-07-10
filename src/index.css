@@ -1,0 +1,131 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.radial-bg {
+  background: linear-gradient(0deg, #191934, #191934),
+    radial-gradient(
+      214.89% 255.91% at 214.89% -5.91%,
+      rgba(127, 139, 210, 0.3) 0%,
+      rgba(89, 106, 197, 0) 100%
+    );
+
+  background-position: center;
+  background-size: cover, cover;
+  background-repeat: no-repeat;
+  background-blend-mode: overlay;
+}
+
+.purple-radial-bg {
+  background-image: radial-gradient(
+      closest-side,
+      rgba(187, 165, 244, 1) 0%,
+      rgba(95, 51, 214, 1) 100%
+    ),
+    linear-gradient(
+      to left,
+      rgba(255, 255, 255, 0.05),
+      rgba(255, 255, 255, 0.05)
+    ),
+    url(frame.png);
+  background-color: #191934;
+  background-position: center;
+  background-size: cover, cover;
+  background-repeat: no-repeat;
+  background-blend-mode: overlay;
+}
+
+.light-border {
+  border: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+.orange-radial {
+  background: radial-gradient(
+    226.92% 226.92% at 115.38% -50%,
+    #ffdead 0%,
+    #e27f5a 46.78%,
+    #691616 100%
+  );
+}
+
+.purple-gradient {
+  background: linear-gradient(
+      0deg,
+      rgba(255, 255, 255, 0.05),
+      rgba(255, 255, 255, 0.05)
+    ),
+    radial-gradient(66.67% 103.95% at 50% -42.76%, #bba5f4 0%, #5f33d6 100%);
+}
+
+.orange-gradient-text {
+  background: linear-gradient(
+    101.7deg,
+    #ffb366 23.03%,
+    #e9766f 75.73%,
+    #c04350 130.68%
+  );
+
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.gradient-text {
+  background: linear-gradient(
+    90deg,
+    rgba(245, 241, 255, 1) 0%,
+    rgba(102, 51, 238, 1) 100%
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.light-gradient-text {
+  background: linear-gradient(123.11deg, #ffffff -2.63%, #aa9cfc 104.28%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.my-shadow {
+  box-shadow: 0px 1px 1px 0px #ffffff12, inset 0px 1px 3px 0px #01051e80;
+}
+
+.user-card-bg {
+  background: radial-gradient(
+    50% 50% at 50% 50%,
+    rgba(154, 114, 253, 0.1) 0%,
+    rgba(255, 255, 255, 0.1) 100%
+  );
+}
+
+.user-card-bg2 {
+  background: linear-gradient(
+    141.22deg,
+    rgba(169, 161, 255, 0.5) 16.82%,
+    rgba(254, 189, 255, 0.5) 83.18%
+  );
+}
+
+.prompt-card {
+  background: radial-gradient(
+      53.33% 74.69% at 50% 107.05%,
+      #bba5f4 0%,
+      #653ad8 100%
+    ),
+    url(frame.png);
+  background-position: center;
+  background-size: cover, cover;
+  background-repeat: no-repeat;
+  background-blend-mode: overlay;
+}
+
+.toggler:after {
+  background: radial-gradient(
+    183.81% 220.09% at 18.23% -40.51%,
+    #ffdaa3 0%,
+    #e27f5a 46.78%,
+    #691616 100%
+  );
+}
